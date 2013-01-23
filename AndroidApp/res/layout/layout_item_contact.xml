@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="horizontal" android:background="@drawable/layoutback_blue">
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/contactPhone" android:layout_weight="1"
+		android:textColor="#FFFFFF" android:textSize="16dip" android:text="phone"></TextView>
+	<TextView android:layout_height="wrap_content" android:layout_weight="1"
+		android:layout_width="fill_parent" android:id="@+id/contactName"
+		android:textSize="10dip" android:text="date" android:gravity="right"
+		android:textColor="@color/yellow" android:paddingLeft="6dip" android:paddingRight="5dip"></TextView>
+</LinearLayout>

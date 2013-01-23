@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+	<string name="hello">Hello World, RedirectMain!</string>
+	<string name="app_name">문자 포워딩</string>
+	<string name="enable">활성화</string>
+	<string name="target">대상 전화번호</string>
+	<string name="startChar">시작 문자열</string>
+	<string name="endChar">완료 문자열</string>
+	<string name="OK">확인</string>
+	<string name="cancel">취소</string>
+	<string name="startCharNotNull">시작 문자열 길이가 0이면 안됩니다</string>
+	<string name="endCharNotNull">완료 문자열 길이가 0이면 안됩니다</string>
+	<string name="startEndShouldNotEqual">시작 문자열과 완료 문자열이 같으면 안됩니다</string>
+	<string name="aboutDetail">개발자
+		하흠전 happywhitefox@163.com</string>
+	<string name="aboutSoft">해당 소프트웨어에 관하여</string>
+	<string name="about">관하여</string>
+	<string name="reply">답변</string>
+	<string name="from">부터</string>
+	<string name="toReply">+문자 내용으로 해당 문자에 회답하기</string>
+	<string name="redirectMethod">포워딩 방식</string>
+	<string name="redirectAll">전부 포워딩(모든 문자를 포워딩)</string>
+	<string name="redirectPartial">일부 포워딩(특정 전화번호의 문자만 포워딩)</string>
+	<string name="ButtonAdd">전화번호 추가</string>
+	<color name="red">#FF0000</color>
+	<color name="green">#00FF00</color>
+	<color name="blue">#0000FF</color>
+	<color name="yellow">#FFFF00</color>
+	<color name="Red">#FFFFFF</color>
+	<color name="Turquoise">#C0C0C0</color>
+	<color name="LightBlue">#808080</color>
+	<color name="DarkBlue">#000000</color>
+	<color name="LightPurple">#FF8040</color>
+	<color name="DarkPurple">#804000</color>
+	<color name="Yellow">#800000</color>
+	<color name="PastelGreen">#808000</color>
+	<color name="Pink">#408080</color>
+	<string name="stringNewContact">새 전화번호 추가</string>
+	<string name="buttonOK">확인</string>
+	<string name="buttonCancel">취소</string>
+	<string name="WarningNumberNotNull">조작에 에러가 발생했습니다! 전화번호를 반드시 입력하십시오
+	</string>
+	<string name="addSuccessful">성공적으로 추가했습니다!</string>
+	<string name="editSuccessful">성공적으로 수정했습니다</string>
+	<string name="deleteSuccessful">성공적으로 삭제했습니다!</string>
+	<string name="buttonDelete">삭제</string>
+	<string name="contact">성명(선택 입력)</string>
+	<string name="number">전화번호(필수 입력)</string>
+	<string name="stringEditContact">연락자 편집</string>
+</resources>

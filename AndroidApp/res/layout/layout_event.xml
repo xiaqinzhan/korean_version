@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="130dip" android:layout_weight="2"
+		android:background="@color/blue">
+		<TextView android:id="@+id/textViewEventName"
+			android:layout_height="wrap_content" android:textSize="28dip"
+			android:textColor="#D1CD2E" android:layout_alignParentLeft="true"
+			android:layout_width="fill_parent"></TextView>
+		<ToggleButton android:id="@+id/ToggleEvent"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/togger_enable" android:layout_alignParentRight="true"
+			android:textOff="@string/enable" android:textOn="@string/disable"></ToggleButton>
+	</RelativeLayout>
+	<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical">
+			<TabWidget android:id="@android:id/tabs"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<FrameLayout android:id="@android:id/tabcontent"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				>
+				<LinearLayout android:id="@+id/tabMessage"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="fill_parent">
+					<include android:id="@+id/includeMessageEdit" layout="@layout/layout_message_edit"
+						android:layout_height="fill_parent" android:layout_width="fill_parent"></include>
+				</LinearLayout>
+
+				<LinearLayout android:id="@+id/tabGroup"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="fill_parent">
+					<include android:id="@+id/includeContactEdit" layout="@layout/layout_contact_edit"
+						android:layout_height="fill_parent" android:layout_width="fill_parent"></include>
+				</LinearLayout>
+
+				<LinearLayout android:id="@+id/tabSchedule"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="fill_parent">
+					<include android:id="@+id/includeScheduleEdit" layout="@layout/layout_schedule_edit"
+						android:layout_height="fill_parent" android:layout_width="fill_parent"></include>
+				</LinearLayout>
+			</FrameLayout>
+		</LinearLayout>
+	</TabHost>
+
+</LinearLayout>

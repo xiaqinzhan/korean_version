@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/groupBasic">
+		<item android:id="@+id/menuEdit" android:title="@string/menu_edit"></item>
+		<item android:id="@+id/menuDelete" android:title="@string/menu_delete"></item>
+		<item android:id="@+id/itemCancel" android:title="@string/menu_cancel"></item>
+	</group>
+</menu>

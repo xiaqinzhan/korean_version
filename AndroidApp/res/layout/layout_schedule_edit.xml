@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:id="@+id/footer"
+		android:layout_weight="4" android:layout_gravity="center_vertical"
+		android:layout_height="fill_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content" android:id="@+id/header"
+		android:layout_height="fill_parent" android:layout_weight="3"
+		android:orientation="vertical" android:gravity="center_vertical"
+		android:background="@drawable/layoutback_pink">
+		<TextView android:text="@string/nextRunTime" android:textColor="@color/DarkPurple"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="10dp"></TextView>
+		<TextView android:text="20100912 17:30" android:textColor="@color/DarkPurple"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/TextSchedule" android:textSize="10dp"></TextView>
+		</LinearLayout>
+		<Button android:text="@string/buttonSchedule" android:id="@+id/ButtonSet"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_toLeftOf="@+id/ButtonRunNow" android:layout_centerVertical="true" android:onClick="onClick"></Button>
+		<Button android:text="@string/buttonRunNow" android:id="@+id/ButtonRunNow"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick"></Button>
+	
+</RelativeLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:id="@+id/header"
+		android:layout_height="fill_parent" android:layout_weight="3"
+		android:background="@drawable/layoutback_pink">
+		<DatePicker android:id="@+id/DatePicker01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></DatePicker>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:id="@+id/body"
+		android:layout_height="fill_parent" android:layout_weight="3"
+		android:background="@drawable/layoutback_blue">
+		<TimePicker android:id="@+id/TimePicker01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:fitsSystemWindows="true"></TimePicker>
+
+</LinearLayout>
+
+</LinearLayout>

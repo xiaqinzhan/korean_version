@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+	<string name="hello">Hello World, ReminderMain!</string>
+	<string name="app_name">메시지 전화 리마인더</string>
+	<string name="enable">사용 시작</string>
+	<color name="gray">#3E3535</color>
+	<string name="remindType">리마인드 유형</string>
+	<string name="remindMethod">리마인드 방식</string>
+	<string name="remindRingtone">벨소리 선택</string>
+	<string name="remindInterval">간격（초）</string>
+	<string name="ok">확인</string>
+	<string name="cancel">취소</string>
+	<string name="about">관하여</string>
+	<string-array name="array_type">
+		<item>부재전화+안읽은 sms</item>
+		<item>부재전화</item>
+		<item>안읽은 sms</item>1
+	</string-array>
+	<string-array name="array_mehod">
+		<item>진동+벨소리</item>
+		<item>진동</item>
+		<item>벨소리</item>
+	</string-array>
+	<string-array name="array_ringtone">
+		<item>벨소리1</item>
+		<item>벨소리2</item>
+		<item>벨소리3</item>
+	</string-array>
+	<string name="aboutSoft">본 소프트 관하여</string>
+	<string name="confirmExit">퇴출 확인</string>
+	<string name="confirmMessage">곧 해당 설정에서 퇴출할것입니다. 수정했던 내용은 저장이 안됩니다. 수정한 내용을
+		저장할것입니까?</string>
+	<string name="abortSave">저장 취소</string>
+	<string name="saveData">데이타 저장</string>
+	<string name="enableSleepSetting">수면 설정</string>
+	<string name="sleepingComment">(24시간제는 시간대 리마인드하지 않도록 설정)</string>
+	<string name="to">아침까지</string>
+	<string name="stringNumberNeeded">시간 설정은 반드시 숫자여야 함</string>
+	<string name="stringIntervalNumberNeeded">주기는 반드시 정수여야 함</string>
+	<string name="stringHourRestrict">시간은 반드시 0-24여야 함</string>
+	<string name="stringMinuteRestrict">분은 반드시0-60이여 함</string>
+	<string name="stringShouldNotSame">시작 시간과 종료 시간은 동일하게 설정할수 없다</string>
+	<string name="afternoon">밤</string>
+</resources>

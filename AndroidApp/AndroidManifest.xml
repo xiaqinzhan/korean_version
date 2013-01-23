@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.jason.app" android:versionCode="2" android:versionName="2.0">
+	<application android:icon="@drawable/icon_main"
+		android:label="@string/app_name" android:theme="@style/app_theme">
+		<activity android:name=".BatchMain" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".message.MessageMain" android:label="@string/menu_message"></activity>
+		<activity android:name=".smsgroup.SmsGroupMain" android:label="@string/menu_group"></activity>
+		<activity android:name=".schedule.ScheduleMain" android:label="@string/menu_schedule"></activity>
+		<activity android:name=".log.LogMain" android:label="@string/menu_log"></activity>
+		<activity android:name=".event.EventMain" android:label="@string/menu_event"></activity>
+<activity android:name="LoadActivity"></activity>
+<activity android:name=".event.UserSelectActivity"></activity>
+<activity android:name="SendingActivity"></activity>
+<service android:name="SendingService"></service>
+</application>
+
+
+
+	<uses-sdk android:minSdkVersion="5" />
+
+<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</manifest> 

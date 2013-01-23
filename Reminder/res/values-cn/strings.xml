@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ReminderMain!</string>
+    <string name="app_name">短信电话提示器</string>
+<string name="enable">启用</string>
+<color name="gray">#3E3535</color>
+<string name="remindType">提醒类型</string>
+<string name="remindMethod">提醒方式</string>
+<string name="remindRingtone">铃音选择</string>
+<string name="remindInterval">间隔（秒）</string>
+<string name="ok">确定</string>
+<string name="cancel">取消</string>
+<string name="about">关于</string>
+<string-array name="array_type"><item>未接电话+未读短信</item>
+<item>未接电话</item>
+<item>未读短信</item>
+</string-array>
+<string-array name="array_mehod"><item>震动+铃音</item>
+<item>震动</item>
+<item>铃音</item>
+</string-array>
+<string-array name="array_ringtone">
+<item>铃音1</item>
+<item>铃音2</item>
+<item>铃音3</item>
+<item>铃音4</item>
+<item>铃音5</item>
+<item>铃音6</item>
+</string-array>
+<string name="aboutSoft">关于本软件</string>
+<string name="confirmExit">确认退出</string>
+<string name="confirmMessage">你即将退出该设置，你所做的修改并没有保存，是否保存修改？</string>
+<string name="abortSave">取消保存</string>
+<string name="saveData">保存数据</string>
+<string name="enableSleepSetting">睡眠设置</string>
+<string name="sleepingComment">(24小时制，设置不提示时间段)</string>
+<string name="to">到早上</string>
+<string name="stringNumberNeeded">时间设置必须为数字</string>
+<string name="stringIntervalNumberNeeded">周期必须为整数</string>
+<string name="stringHourRestrict">小时数必须为0-24</string>
+<string name="stringMinuteRestrict">分钟数必须为0到60</string>
+<string name="stringShouldNotSame">开始时间结束时间不能设置为一样</string>
+<string name="afternoon">晚上</string>
+</resources>

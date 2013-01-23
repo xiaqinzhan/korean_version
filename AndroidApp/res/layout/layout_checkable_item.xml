@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:orientation="horizontal"
+	android:layout_width="fill_parent" android:background="@drawable/layoutback_pink">
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:id="@+id/text1" android:layout_weight="2" android:textColor="#FFFFFF"
+		android:textSize="12dip" android:text="fileName"></TextView>
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:id="@+id/text2" android:layout_weight="2" android:textColor="#FFFFFF"
+		android:textSize="12dip" android:text="fileName"></TextView>
+	<CheckBox android:id="@+id/CheckBox01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:clickable="false"
+		android:focusable="false"></CheckBox>
+
+</LinearLayout>
+	<!--
+
+
+
+		<CheckedTextView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_weight="2" android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="?android:attr/listPreferredItemHeight"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:gravity="center_vertical" android:paddingLeft="6dip"
+		android:id="@+id/text2" android:paddingRight="6dip"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+		android:background="@drawable/txt_view_bg" /> </LinearLayout>
+	-->
+	
